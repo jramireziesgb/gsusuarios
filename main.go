@@ -5,7 +5,7 @@ import (
 	"encoding/csv"
 	"flag"
 	"fmt"
-	"gsuite"
+	"github.com/jramireziesgb/gsuite"
 	"io"
 	"log"
 	"os"
