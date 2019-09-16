@@ -9,9 +9,9 @@ El programa espera que el fichero de entrada esté codificado en UTF-8. Para con
 ```
 
 Ejemplos de uso:
-RegAlum.csv: es el fichero que genera Séneca con los alumnos que vamos a importar
 
-listado.csv: es el fichero que importaremos en GSuite
+* RegAlum.csv: es el fichero que genera Séneca con los alumnos que vamos a importar
+* listado-gsuite.csv: es el fichero que importaremos en GSuite
 
 ```bash
 \$ gsusuarios -f RegAlum.utf8.csv -d "midominio.com" -x eso -u "/Alumnos/ESO" > listado-gsuite.csv
