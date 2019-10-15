@@ -5,10 +5,11 @@ import (
 	"encoding/csv"
 	"flag"
 	"fmt"
-	"github.com/jramireziesgb/gsuite"
 	"io"
 	"log"
 	"os"
+
+	"github.com/jramireziesgb/gsuite"
 )
 
 const AppVersion = "1.0"
@@ -104,7 +105,7 @@ func main() {
 	}
 
 	// Cabecera del fichero CSV
-	fmt.Println("First Name [Required],Last Name [Required],Email Address [Required],Password [Required],Org Unit Path [Required]")
+	fmt.Println("First Name [Required],Last Name [Required],Email Address [Required],Password [Required],Org Unit Path [Required], Curso")
 
 	for _, v := range usuarios {
 		fmt.Println(v.String())
